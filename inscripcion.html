@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portal de inscripción</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <header>
+        <h1>Formulario de inscripción</h1>
+    </header>
+    <main>
+        <form action="#" method="post">
+            <p>
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required>
+            </p>
+            <p>
+                <label for="edad">Edad:</label>
+                <input type="number" id="edad" name="edad" min="18" required>
+            </p>
+            <p>
+                <label for="ciudad">Ciudad:</label> 
+                <select id="ciudad" name="ciudad">
+                <option value="">Selecciona una opción</option>
+                <option value="cali">Cali</option>
+                <option value="leticia">Leticia</option>
+                <option value="Urrao">Urrao</option> 
+                <option value="Pereira">Pereira</option>
+                <option value="Cartagena">Cartagena</option>
+                </select>
+            </p>
+            <p>Tipo de asistente</p>
+            <p>
+                <input type="radio" id="estudiante" name="tipo" value="estudiante">
+                <label for="estudiante">Estudiante</label>
+            </p>
+            <p>
+                <input type="radio" id="profesional" name="tipo" value="profesional">
+                <label for="profesional">Profesioanal</label>
+            </p>
+            <p>
+                <input type="checkbox" id="politicas" name="politicas" value="aceptado" required>
+                <label for="politicas">Acepto las politicas</label>
+            </p>
+        </form>
+    </main>
+
+    <footer>
+         <nav>
+            <a href="./evento.html">Pagina principal</a>
+        </nav>
+    </footer>
+    
+</body>
+</html>
